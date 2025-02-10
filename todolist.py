@@ -36,6 +36,7 @@ menu = {
     4: "exit"
 }
 
+
 user_input = int(input("Please input where you would like to go: "))
 action = menu.get(user_input, "Invalid")
 print(f"You have chosen to: {action}")
